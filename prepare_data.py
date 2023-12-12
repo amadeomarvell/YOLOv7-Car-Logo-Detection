@@ -57,11 +57,11 @@ def get_annotations_flickr(path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, required=True, help='flickr27 or logodet3k')
+    parser.add_argument('--dataset', type=str, required=True, help='CarLogos or logodet3k')
     opt = parser.parse_args()
 
-    if opt.dataset == 'flickr27':
-        annotations, images = get_annotations_flickr('data/flickr_logos_27_dataset/flickr_logos_27_dataset_images')
+    if opt.dataset == 'CarLogos':
+        annotations, images = get_annotations_flickr('Car Logo Dataset/Car Logo Dataset V-3')
     else:
         annotations, images = get_annotations('data/LogoDet-3K')
 
@@ -73,7 +73,7 @@ def main():
     os.system('mkdir data/images/train data/images/val data/images/test data/annotations/train data/annotations/val data/annotations/test')
 
     # Move the splits into their folders
-    if opt.dataset == 'flickr27':
+    if opt.dataset == 'CarLogos':
         move_files_to_folder_flickr(train_images, 'data/images/train')
         move_files_to_folder_flickr(val_images, 'data/images/val/')
         move_files_to_folder_flickr(test_images, 'data/images/test/')
