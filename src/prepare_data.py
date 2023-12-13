@@ -69,17 +69,17 @@ def main():
     train_images, val_images, train_annotations, val_annotations = train_test_split(images, annotations, test_size = 0.2, random_state = 1)
     val_images, test_images, val_annotations, test_annotations = train_test_split(val_images, val_annotations, test_size = 0.5, random_state = 1)
 
-    os.system('mkdir data/images data/annotations')
-    os.system('mkdir data/images/train data/images/val data/images/test data/annotations/train data/annotations/val data/annotations/test')
+    os.system('mkdir /content/YOLOv7-Car-Logo-Detection/data/images /content/YOLOv7-Car-Logo-Detection/data/annotations')
+    os.system('mkdir /content/YOLOv7-Car-Logo-Detection/data/images/train /content/YOLOv7-Car-Logo-Detection/data/images/val /content/YOLOv7-Car-Logo-Detection/data/images/test /content/YOLOv7-Car-Logo-Detection/data/annotations/train /content/YOLOv7-Car-Logo-Detection/data/annotations/val /content/YOLOv7-Car-Logo-Detection/data/annotations/test')
 
     # Move the splits into their folders
     if opt.dataset == 'CarLogos':
-        move_files_to_folder_flickr(train_images, 'data/images/train')
-        move_files_to_folder_flickr(val_images, 'data/images/val/')
-        move_files_to_folder_flickr(test_images, 'data/images/test/')
-        move_files_to_folder_flickr(train_annotations, 'data/annotations/train/')
-        move_files_to_folder_flickr(val_annotations, 'data/annotations/val/')
-        move_files_to_folder_flickr(test_annotations, 'data/annotations/test/')
+        move_files_to_folder_flickr(train_images, '/content/YOLOv7-Car-Logo-Detection/data/images/train')
+        move_files_to_folder_flickr(val_images, '/content/YOLOv7-Car-Logo-Detection/data/images/val/')
+        move_files_to_folder_flickr(test_images, '/content/YOLOv7-Car-Logo-Detection/data/images/test/')
+        move_files_to_folder_flickr(train_annotations, '/content/YOLOv7-Car-Logo-Detection/data/annotations/train/')
+        move_files_to_folder_flickr(val_annotations, '/content/YOLOv7-Car-Logo-Detection/data/annotations/val/')
+        move_files_to_folder_flickr(test_annotations, '/content/YOLOv7-Car-Logo-Detection/data/annotations/test/')
     else:
         move_files_to_folder(train_images, 'data/images/train')
         move_files_to_folder(val_images, 'data/images/val/')
@@ -88,7 +88,7 @@ def main():
         move_files_to_folder(val_annotations, 'data/annotations/val/')
         move_files_to_folder(test_annotations, 'data/annotations/test/')
 
-    os.system('cp -r data/annotations data/labels')
+    os.system('cp -r /content/YOLOv7-Car-Logo-Detection/data/annotations /content/YOLOv7-Car-Logo-Detection/data/labels')
 
 
 if __name__ == "__main__":
