@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /content/YOLOv7-Car-Logo-Detection/data/images/train/
+val: /content/YOLOv7-Car-Logo-Detection/data/images/val/
+test: /content/YOLOv7-Car-Logo-Detection/data/images/test/
 
 nc: 27
 names: ['Audi', 'Citroen', 'GMC', 'Honda', 'Hyundai', 'Mazda', 'Mercedes', 'Mitsubishi', 'Nissan', 'Renault', 'Toyota', 'Volkswagen', 'bmw', 'cadillac', 'chevrolet', 'ford', 'jeep', 'kia', 'lexus', 'license-plate', 'mini', 'porsche', 'ram', 'range rover', 'subaru', 'suzuki', 'volvo']
