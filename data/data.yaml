@@ -1,15 +1,13 @@
-train: /content/YOLOv7-Car-Logo-Detection/data/images/train/
-val: /content/YOLOv7-Car-Logo-Detection/data/images/val/
-test: /content/YOLOv7-Car-Logo-Detection/data/images/test/
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 27
-names: ['Audi', 'Citroen', 'GMC', 'Honda', 'Hyundai', 'Mazda', 'Mercedes', 'Mitsubishi', 'Nissan', 
-'Renault', 'Toyota', 'Volkswagen', 'bmw', 'cadillac', 'chevrolet', 'ford', 'jeep', 'kia', 'lexus', 
-'license-plate', 'mini', 'porsche', 'ram', 'range-rover', 'subaru', 'suzuki', 'volvo']
+names: ['Audi', 'Citroen', 'GMC', 'Honda', 'Hyundai', 'Infiniti', 'Mazda', 'Mercedes', 'Mitsubishi', 'Nissan', 'Renault', 'Toyota', 'Volkswagen', 'bmw', 'cadillac', 'chevrolet', 'ford', 'jeep', 'kia', 'lexus', 'mini', 'porsche', 'ram', 'range rover', 'subaru', 'suzuki', 'volvo']
 
 roboflow:
   workspace: skripsi-1
   project: test-1-ojrv5
-  version: 1
+  version: 4
   license: CC BY 4.0
-  url: https://universe.roboflow.com/skripsi-1/test-1-ojrv5/dataset/1
+  url: https://universe.roboflow.com/skripsi-1/test-1-ojrv5/dataset/4
