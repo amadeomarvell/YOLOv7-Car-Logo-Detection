@@ -61,7 +61,7 @@ def main():
     opt = parser.parse_args()
 
     if opt.dataset == 'CarLogos':
-        annotations, images = get_annotations_flickr('/content/YOLOv7-Car-Logo-Detection/Car Logo Dataset/Car Logo Dataset 27')
+        annotations, images = get_annotations_flickr('/content/YOLOv7-Car-Logo-Detection/Car Logo Dataset 27/Car Logo Dataset 27')
     else:
         annotations, images = get_annotations('data/LogoDet-3K')
 
