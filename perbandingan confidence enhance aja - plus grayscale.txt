@@ -1,0 +1,69 @@
+enhanced aja
+971.jpg 0.60 bener
+1151.jpg 0.57 bener
+1625.jpg 0.71 bener
+1760.jpg 0.85 bener
+2051.jpg salah
+2245.jpg gatau
+2283.jpg ga ke detect
+2575.jpg 0.79 bener
+2612.jpg kia 0.82 bener
+2681.jpg subaru 0.57 bener
+2713.jpg 0.76 bener
+2893.jpg 0.37 bener
+2901.jpg 0.75 bener
+3044.jpg 0.31 bener, mercy ga ke detect
+8141.jpg 0.78 bener
+
+grayscale
+971.jpg 0.62 bener
+1151.jpg 0.52 bener
+1625.jpg salah
+1760.jpg 0.70 bener
+2051.jpg salah
+2245.jpg gatau
+2283.jpg ga ke detect
+2575.jpg 0.78 bener, 0.48 bener
+2612.jpg kia 0.81 bener
+2681.jpg subaru 0.54 bener
+2713.jpg 0.75 bener
+2893.jpg 0.32 bener
+2901.jpg 0.66 bener
+3044.jpg audi salah, mercy 0.12
+8141.jpg 0.70 bener
+
+klo di grayscale abis di enhance confidence turun sekitar 5%
+
+perbandingan ke dua
+5158.jpg 0.93 bener
+5308.jpg 0.55 bener
+5377.jpg gatau tapi 0.76
+5399.jpg 0.62 bener
+5502.jpg 0.60 bener
+5612.jpg 0.56 bener
+6591.jpg 0.60 bener, 0.52 bener
+6865.jpg ga ke detect
+6877.jpg 0.57 bener
+6884.jpg 0.67 bener
+7078.jpg 0.35 bener
+7904.jpg ga ke detect
+7910.jpg salah
+7932.jpg 0.59 bener
+8084.jpg 0.69 bener
+
+grayscale
+5158.jpg 0.88 bener
+5308.jpg 0.33 bener
+5377.jpg gatau tapi 0.78
+5399.jpg 0.58 bener
+5502.jpg 0.55 bener
+5612.jpg 0.55 bener
+6591.jpg 0.62 bener, 0.33 bener
+6865.jpg 0.23 salah
+6877.jpg 0.54 bener
+6884.jpg 0.76 bener
+7078.jpg 0.27 bener
+7904.jpg 0.50 bener
+7910.jpg ga ke detect
+7932.jpg 0.43 bener
+8084.jpg 0.71 bener

@@ -1,0 +1,1 @@
+python /Users/amade/OneDrive/Desktop/SKRIPSI/YOLOv7-Car-Logo-Detection/src/yolov7/detect.py --source /Users/amade/OneDrive/Desktop/SKRIPSI/YOLOv7-Car-Logo-Detection/data/grayscale_images_3 --weights /Users/amade/OneDrive/Desktop/SKRIPSI/YOLOv7-Car-Logo-Detection/best.pt --img-size 480 --conf 0.20 --name yolo_logo_det
